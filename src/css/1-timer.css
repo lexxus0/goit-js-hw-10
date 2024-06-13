@@ -28,9 +28,13 @@ button[type='button'] {
   border: none;
 }
 
-button:disabled {
+button[type='button']:disabled {
   background: #cfcfcf;
   cursor: default;
+}
+
+button[type='button']:hover:enabled{
+  background: #6c8cff;
 }
 
 .timer {
@@ -61,7 +65,7 @@ input[type='text']:active {
   border: 1px solid #4e75ff;
 }
 
-input[type='text']:disabled {
+input[type='text'] {
   border: 1px solid #808080;
   opacity: 0.5;
   cursor: default;

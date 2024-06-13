@@ -23,20 +23,21 @@ body {
 
 fieldset {
   border-radius: 4px;
-  stroke-width: 1px;
-  stroke: #808080;
+  border: 1px solid #808080;
   width: 360px;
   height: 62px;
   padding: 0;
   margin-bottom: 26px;
 }
 
+fieldset:hover {
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
 .label-container {
   display: flex;
   justify-content: center;
-  border-radius: 4px;
-  stroke-width: 1px;
-  stroke: #808080;
   column-gap: 48px;
 }
 
@@ -62,20 +63,28 @@ button[type='submit'] {
   border: none;
 }
 
+button[type='submit']:hover {
+  background: #6c8cff;
+}
+
 .black {
-    color: #000;
-    font-weight: 700;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  color: #000;
+  font-weight: 700;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
-html{
-    position: relative;
-    margin-top: 20px;
-    margin-left: 15px;
+html {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 15px;
 }
 
-.form{
-    margin-left: 100px;
+.form {
+  margin-left: 100px;
+}
+
+fieldset input[type="radio"]:checked {
+  border: 2px solid blue;
 }
