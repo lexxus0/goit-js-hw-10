@@ -1,5 +1,4 @@
 body {
-  margin-left: 120px;
   margin-top: 50px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -61,4 +60,22 @@ button[type='submit'] {
   letter-spacing: 0.04em;
   color: #fff;
   border: none;
+}
+
+.black {
+    color: #000;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+html{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.form{
+    margin-left: 100px;
 }

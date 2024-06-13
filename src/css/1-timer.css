@@ -1,5 +1,4 @@
 .value {
-  /* position: absolute; */
   width: 55px;
   height: 48px;
   bottom: 3px;
@@ -78,7 +77,24 @@ input[type='text']:disabled {
   text-align: center;
 }
 
-body {
-  margin-left: 156px;
+html {
+  margin-left: 15px;
   font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+
+.black{
+  color: #000;
+  font-weight: 700;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+.hello{
+  margin-left: 100px;
+}
+
+a{
+  color: blue;
 }
